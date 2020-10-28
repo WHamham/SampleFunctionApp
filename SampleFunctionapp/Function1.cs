@@ -26,7 +26,7 @@ namespace SampleFunctionapp
             name = name ?? data?.name;
 
             string responseMessage = string.IsNullOrEmpty(name)
-                ? "This HTTP triggered function executed sucessfully"
+                ? "This HTTP triggered function executed sucessfully !!!!!!"
                 : $"Hellossss, {name}. This HTTP triggered function executed succesfully.";
 
             return new OkObjectResult(responseMessage);
